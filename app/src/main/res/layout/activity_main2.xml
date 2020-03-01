@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".Main2Activity"
+    android:background="@color/bac">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Rainbow Wheel"
+        android:textColor="#182CC5"
+        android:textColorHint="#00FF0000"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/bungee_shade" />
+
+
+    <com.varunest.sparkbutton.SparkButton
+        android:id="@+id/spark_button"
+        android:layout_width="401dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_height="247dp"
+        android:layout_marginTop="350dp"
+        app:sparkbutton_activeImage="@drawable/ina"
+        app:sparkbutton_iconSize="100dp"
+        app:sparkbutton_inActiveImage="@drawable/akt"
+        app:sparkbutton_primaryColor="@color/byesil"
+        app:sparkbutton_secondaryColor="@color/bmavi" />
+
+    <TextView
+        android:id="@+id/textView3"
+android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:textColor="#182CC5"
+        android:textColorHint="#00FF0000"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/bungee_shade"
+        android:text="play" />
+
+
+</RelativeLayout>

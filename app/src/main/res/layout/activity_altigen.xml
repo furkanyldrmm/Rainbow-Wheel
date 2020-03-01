@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_pointsa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#182CC5"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        app:fontFamily="@font/alfa_slab_one"
+        android:text="Score: 0"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ProgressBar
+
+        android:id="@+id/progressBara"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_points"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="50dp"
+android:progressDrawable="@drawable/progressbar"
+        android:layerType="none"
+        android:theme="@style/Base.TextAppearance.AppCompat.Body2" />
+
+    <include layout="@layout/altigenbuttons"
+        android:layout_width="match_parent"
+        android:layout_marginTop="70dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/progressBar"
+        android:layout_centerHorizontal="true"/>
+
+
+
+
+</RelativeLayout>

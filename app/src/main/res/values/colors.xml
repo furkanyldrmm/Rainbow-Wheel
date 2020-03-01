@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="white">#FFFFFF</color>
+    <color name="bac">#00F7DB</color>
+    <color name="tu">#F77300</color>
+    <color name="re">#F70000</color>
+    <color name="yello">#FFE600</color>
+    <color name="bmavi">#182CC5</color>
+    <color name="byesil">#00FF04</color>
+</resources>
